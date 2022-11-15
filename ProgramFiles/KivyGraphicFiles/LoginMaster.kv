@@ -4,8 +4,6 @@
 	font_name: 'KivyGraphicFiles/Fonts/UbuntuMono-R'
 
 <LoginWindow>:
-
-	cols: 1
 	
 	notifyupdate: notifyupdate
 	password: password
@@ -60,7 +58,7 @@
 				row_force_default: True
 				row_default_height: str(root.height*0.05)+'dp'			
 				TextInput:
-					on_double_tap: root.get_rid_of_username()
+					on_double_tap: self.text = ''
 					write_tab: False
 					multiline: False
 					text: 'Username should go here'
@@ -135,6 +133,6 @@
 			Image:
 				source: 'Images/CalvaryBBack2.jpg'
 				
-			#Button:
-				#text: 'cheaty button of doom'
-				#on_press: self.parent.parent.parent.parent.parent.cheatyFunc()
+			Button:
+				text: 'cheaty button of doom'
+				on_press: root.manager.cheatyFunc()

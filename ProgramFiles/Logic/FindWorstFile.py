@@ -27,9 +27,9 @@ def bestOfFiles(listOfFiles):
                 best = total
                 bestPosition = i
         finalFinalList.append(lesson[bestPosition])
-        
+
     return finalFinalList
-        
+
 
 def worstFile(listOfFiles, forLuke=False):
     listOfFiles = bestOfFiles(listOfFiles)
@@ -52,19 +52,19 @@ def worstFile(listOfFiles, forLuke=False):
         return worst
     else:
         return nameList[worst]
-        
-        
+
+
 def findBestFile(listOfFiles):
     accuracyWeight = .999
     #return sorted([(a,((b*accuracyWeight)+(c*(1-accuracyWeight)))) for a,b,c in listOfFiles],key=(lambda x : x[1]),reverse=True)[0][0]
-    
+
     newList = []
     for a,b,c in listOfFiles:
         newList+=[(a,((b*accuracyWeight)+(c*(1-accuracyWeight))))]
     newList.sort(key=(lambda x : x[1]),reverse=True)
     pprint.pprint(newList)
     return newList[0][0]
-    
+
 
 if __name__ == '__main__':
     data = [['lesson1',99.3,46],['lesson2',99.6,29]]

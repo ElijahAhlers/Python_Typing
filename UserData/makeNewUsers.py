@@ -18,7 +18,7 @@ for firstName, lastName, username, password, registered in [item.values() for it
     if not os.path.exists(username + '/data.csv'):
         write(username + '/data.csv', ['FirstName', 'LastName'], [{'FirstName': firstName, 'LastName': lastName}])
 
-    current_users = read('UsernameAndPasswordHashed.csv')
+    current_users = read('UsernameAndPassword.csv')
     just_usernames = [dic['Username'] for dic in current_users]
     print(username, just_usernames)
     if username in just_usernames:
@@ -33,4 +33,4 @@ for firstName, lastName, username, password, registered in [item.values() for it
             'Password': password,
             'Registered': registered
         }]
-    write('UsernameAndPasswordHashed.csv', ['Username', 'Password', 'Registered'], current_users)
+    write('UsernameAndPassword.csv', ['Username', 'Password', 'Registered'], current_users)

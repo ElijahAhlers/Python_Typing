@@ -3,145 +3,161 @@
 <Label>:
 	font_name: 'KivyGraphicFiles/Fonts/UbuntuMono-R'
 
+<Label_Grid_Box@Label>:
+    text_size: self.size
+    halign: 'left'
+    valign: 'middle'
+    padding: (10,10)
+    canvas.before:
+        Color:
+            rgba: self.color
+        Line:
+            width: 1.1
+            rectangle: self.x, self.y, self.width, self.height
+
+<Result_Entry@GridLayout>
+    padding: (5, 5)
+    name: 'Lesson Name Here'
+    accuracy: '###'
+    wpm: '###'
+    redo_button: False
+    redo_this_lesson: False
+    screen: None
+    color: (1,1,1,1)
+    font_size: dp(37)
+
+    cols: 4
+
+    Label_Grid_Box:
+        text: root.name
+        font_size: root.font_size
+        color: root.color
+        size_hint_x: .55
+        box_color: (1,1,1,1) if root.redo_this_lesson else (1,1,0,1)
+
+    Label_Grid_Box:
+        text: root.accuracy
+        font_size: root.font_size
+        color: root.color
+        size_hint_x: .15
+        box_color: (1,1,1,1) if root.redo_this_lesson else (1,1,0,1)
+
+    Label_Grid_Box:
+        text: root.wpm
+        font_size: root.font_size
+        color: root.color
+        size_hint_x: .1
+        box_color: (1,1,1,1) if root.redo_this_lesson else (1,1,0,1)
+
+    Button:
+        text: 'Redo'
+        color: root.color
+        font_size: root.font_size
+        size_hint_x: .2
+        disabled: not root.redo_button
+        on_press: root.screen.redo_lesson(root.name)
+        padding: (5,5)
+        background_color: 0.25,0.25,0.25,1
+        canvas.before:
+            Color:
+                rgba: self.color
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+
 <ResultsWindow>:
-	orientation: 'horizontal'
-	
-	BoxLayout:
-		orientation: 'vertical'
-		size_hint: 2,1.7
-		GridLayout:
-			cols: 2
-			padding: [0,root.height*0.75,0,0]
-			Label:
-				id: lessonName
-				text: 'Lesson ##'
-				font_size: '35sp'
-			
-			GridLayout:
-				cols: 4
-				
-				Label:
-					text: 'Accuracy'
-					font_size: '35sp'
-				
-				Label:
-					text: ''
-					
-				Label:
-					text: 'WPM'
-					font_size: '35sp'
-				
-				Label:
-					text: ''
-			
-		Chart:
-			cols: 1
-				
-	BoxLayout:
-		orientation: 'horizontal'
-		GridLayout:
-			rows: 5
-			
-			GridLayout:
-				cols: 2
-				
-				GridLayout:
-					cols: 1
-					Label:
-						text: ''
-				
-				GridLayout:
-					cols: 5
-					
-					Label:
-						text: ''
-						
-					Label:
-						text: ''
-						
-					Label:
-						text: ''
-					
-					
-					GridLayout:
-						rows: 5
-						
-						Label:
-							text: ''
-						Button:
-							text: 'Exit'
-							on_press: root.exit()
-							
-						Label:
-							text: ''
-						
-						Label:
-							text: ''
-						
-						Label:
-							text: ''
-						
-					Label:
-						text: ''
-				
-			GridLayout:
-				rows:3
-				
-				Label:
-					font_size: '35sp'
-					text: "Today's average \n    Accuracy"
-				
-				Label:
-					id: averageaccuracy
-					font_size: '35sp'
-					text: '###%'
-				
-				Label:
-					text: ''
-			
-			GridLayout:
-				rows: 3
-				
-				Label:
-					font_size: '35sp'
-					text: "Today's average \nWords Per Minute"
-				
-				Label:
-					id: averagewpm
-					font_size: '35sp'
-					text: '##'
-				
-				Label:
-					text: ''
-			
-			GridLayout:
-				rows: 4
-				
-				Label:
-					font_size: '35sp'
-					text: 'Total Idle Time'
-				
-				Label:
-					id: idletime
-					font_size: '35sp'
-					text: '##:##'
-					
-				Label:
-					id: timeUntilIdleTime
-					color: 1,1,1,1
-					font_size: '35sp'
-					text: '##:##'
-					
-				Label:
-					text: ''
-				
-			GridLayout:
-				cols: 1
-				padding: [root.width*0.05,root.height*0.01,root.width*0.05,root.height*0.1]
-				Button:
-					id: nextLessonButton
-					font_size: '35sp'
-					text: 'Next Lesson'
-					on_press: root.nextLesson()
-			
-	
+
+	GridLayout:
+	    cols: 2
+
+        GridLayout:
+            size_hint_x: .7
+            rows: 2
+
+            Result_Entry:
+                size_hint_y: .1
+                name: 'Lesson Name'
+                accuracy: 'Accuracy'
+                wpm: 'WPM'
+                color: (1,1,1,1)
+
+            RecycleView:
+                id: lesson_results
+                viewclass: 'Result_Entry'
+                data: []
+
+                RecycleBoxLayout:
+                    default_size: None, dp(50)
+                    default_size_hint: 1, None
+                    size_hint_y: None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+
+        GridLayout:
+            size_hint_x: .3
+            rows: 5
+
+            Button:
+                text: 'Exit'
+                on_press: root.exit()
+
+            GridLayout:
+                rows:3
+
+                Label:
+                    font_size: '35sp'
+                    text: "Today's average \n    Accuracy"
+
+                Label:
+                    id: averageaccuracy
+                    font_size: '35sp'
+                    text: '###%'
+
+                Label:
+                    text: ''
+
+            GridLayout:
+                rows: 3
+
+                Label:
+                    font_size: '35sp'
+                    text: "Today's average \nWords Per Minute"
+
+                Label:
+                    id: averagewpm
+                    font_size: '35sp'
+                    text: '##'
+
+                Label:
+                    text: ''
+
+            GridLayout:
+                rows: 4
+
+                Label:
+                    font_size: '35sp'
+                    text: 'Total Idle Time'
+
+                Label:
+                    id: idletime
+                    font_size: '35sp'
+                    text: '##:##'
+
+                Label:
+                    id: timeUntilIdleTime
+                    color: 1,1,1,1
+                    font_size: '35sp'
+                    text: '##:##'
+
+                Label:
+                    text: ''
+
+            GridLayout:
+                cols: 1
+                padding: [root.width*0.05,root.height*0.01,root.width*0.05,root.height*0.1]
+                Button:
+                    id: nextLessonButton
+                    font_size: '35sp'
+                    text: 'Next Lesson'
+                    on_press: root.nextLesson()

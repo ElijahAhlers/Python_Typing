@@ -1,76 +1,90 @@
 <Label>:
-	font_name: 'Fonts/UbuntuMono-R'
+	font_name: 'KivyGraphicFiles/Fonts/UbuntuMono-R'
 	
 
 <firstLogin>:
-	rows: 8
-	Label:
-		text: ''
-	GridLayout:
-		rows: 1
-			
-		Label:
-			font_size: root.width*root.height*0.00006
-			text: 'Make a new, secure password that only you know.'
-			
-	Label:
-		text: ''
-		
-	GridLayout:
-		cols: 2
-		Label:
-			font_size: root.width*root.height*0.00005
-			text: 'Old password'
-			
-		GridLayout:
-			cols: 1
-			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
-			row_default_height: str(root.height*0.05)+'dp'			
-			TextInput:
-				focus: True
-				write_tab: False
-				multiline: False
-				id: oldPassword
-	
-	
-	GridLayout:
-		cols: 2
-		Label:
-			font_size: root.width*root.height*0.00005
-			text: 'New password'
-		GridLayout:
-			cols: 1
-			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
-			row_default_height: str(root.height*0.05)+'dp'			
-			TextInput:
-				write_tab: False
-				multiline: False
-				id: newPassword
 
-	GridLayout:
-		cols: 2
-		Label:
-			font_size: root.width*root.height*0.00005
-			text: 'Confirm new password'
-		GridLayout:
-			cols: 1
-			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
-			row_default_height: str(root.height*0.05)+'dp'			
-			TextInput:
-				write_tab: False
-				multiline: False
-				id: confirmNewPassword
-	GridLayout:
-		cols: 3
-		padding: [0,root.height*0.05,0,0]
-		Label:
-			text: ''
-		Button:
-			text: 'Change Password'
-			on_press: root.verifyData()
-		Label:
-			text: ''
+    GridLayout:
+    	rows: 8
+
+    	Label:
+    		text: ''
+    	GridLayout:
+    		rows: 1
+
+    		Label:
+    			font_size: root.width*root.height*0.00006
+    			text: 'Make a new, secure password that only you know.'
+
+    	Label:
+    		text: ''
+
+    	GridLayout:
+    		cols: 2
+    		Label:
+    			font_size: root.width*root.height*0.00005
+    			text: 'Old password'
+
+    		GridLayout:
+    			cols: 1
+    			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
+    			row_default_height: str(root.height*0.05)+'dp'
+    			TextInput:
+    			    password: True
+    			    password_mask: '*'
+    				focus: True
+    				write_tab: False
+    				multiline: False
+    				id: oldPassword
 	
-	Label:
-		id: whatWentWrong
-		text: ''
+	
+    	GridLayout:
+    		cols: 2
+    		Label:
+    			font_size: root.width*root.height*0.00005
+    			text: 'New password'
+    		GridLayout:
+    			cols: 1
+    			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
+    			row_default_height: str(root.height*0.05)+'dp'
+    			TextInput:
+    			    password: True
+    			    password_mask: '*'
+    				write_tab: False
+    				multiline: False
+    				id: newPassword
+
+    	GridLayout:
+    		cols: 2
+    		Label:
+    			font_size: root.width*root.height*0.00005
+    			text: 'Confirm new password'
+    		GridLayout:
+    			cols: 1
+    			padding: [0,root.height*0.05,root.width*0.15,root.height*0.05]
+    			row_default_height: str(root.height*0.05)+'dp'
+    			TextInput:
+    			    password: True
+    			    password_mask: '*'
+    				write_tab: False
+    				multiline: False
+    				id: confirmNewPassword
+    	GridLayout:
+    		cols: 5
+    		padding: [0,root.height*0.05,0,0]
+    		Label:
+    			text: ''
+    		Button:
+    			text: 'Change Password'
+    			on_press: root.verify_data()
+    		Label:
+    		    text: ''
+    		Button:
+    		    text: 'Go Back'
+    		    on_press: root.go_back_to_lesson_select()
+    		Label:
+    			text: ''
+
+    	Label:
+    		id: whatWentWrong
+    		text: ''

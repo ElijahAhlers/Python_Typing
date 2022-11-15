@@ -52,7 +52,6 @@ class MenuScreen(Screen):
                       ] + sorted(best_scores(data), key=lambda x: x['name'])
     
     def exit(self):
-        print('ran')
         self.get_root_window().children[0].current = 'LessonSelectScreen'
         Window.fullscreen = False
 
@@ -88,7 +87,6 @@ class GamesMaster(ScreenManager):
             open('Save Location.txt').read()+'allow_backspace.txt').read()=='True' else False
         self.words = open(
             open('Save Location.txt').read()+'TypingFiles/GameWords/default_words.txt').read().split(' ')
-        print(self.words)
 
     def make_game_buttons(self):
         for game, layout in gameScreensAndButtons:

@@ -8,7 +8,7 @@ def GetUsernamesAndPasswords():
     Parameters: None
     Returns: List of Dictionaries'''
     columns = ['Username','Password','Registered']
-    file = open(open('Save Location.txt').read()+'UserData/UsernameAndPasswordHashed.csv','r')
+    file = open(open('Save Location.txt').read()+'UserData/UsernameAndPassword.csv','r')
     reader = csv.DictReader(file, fieldnames=columns)
     returningList = []
     for line in reader:
@@ -17,7 +17,7 @@ def GetUsernamesAndPasswords():
     
 
 def GetRegisteredUsers():
-    data = readCSV(open('Save Location.txt').read()+'UserData/UsernameAndPasswordHashed.csv')
+    data = readCSV(open('Save Location.txt').read()+'UserData/UsernameAndPassword.csv')
     numOfItemsToTakeOff = -[x['Registered'] for x in data].count('0')
     data.sort(key=lambda x:x['Registered'], reverse=True)
     registered = data[:numOfItemsToTakeOff]
