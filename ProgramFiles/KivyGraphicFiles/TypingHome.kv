@@ -1,0 +1,140 @@
+# Filename: TypingHome.kv
+
+<Label>:
+	font_name: 'KivyGraphicFiles/Fonts/UbuntuMono-R'
+
+<HomeWindow>:
+	cols: 1
+	
+	GridLayout:
+		rows: 6
+		
+		GridLayout:
+			cols:2
+			
+			Label:
+				font_size: dp(root.width*root.height*0.00013)
+				text: 'Typing Home'
+				
+			GridLayout:
+				cols: 1
+				#padding: [root.width*0.3,root.height*0.05,root.width*0.05,root.height*0.05]
+				
+				Button:
+					#disabled: True
+					on_press: root.ExitButton()
+					text: 'Exit'
+					
+		
+		GridLayout:
+			cols: 3
+			
+			Label:
+				font_size: dp(root.width*root.height*0.00007)
+				text: 'Next Lesson'
+			
+			GridLayout:
+				rows: 1
+				padding: [root.width*0.1,0,0,0]
+				Label:
+					id: nextlesson
+					font_size: dp(root.width*root.height*0.000045)
+					text: '<nextlesson>'
+				
+			GridLayout:
+				cols: 1
+				padding: [root.width*0.15,root.height*0.05,root.width*0.05,root.height*0.05]
+				Button:
+					text: 'Begin'
+					on_press: root.chooseLesson(root.ids.nextlesson.text)
+		
+		GridLayout:
+			cols:2
+			
+			Label:
+				font_size: dp(root.width*root.height*0.00008)
+				text: 'All Lessons'
+			
+			CustomDropDown
+
+			
+		GridLayout:
+			cols:1
+			
+			Label:
+				id: lastlesson
+				font_size: dp(root.width*root.height*0.000065)
+				text: 'Last time, you typed <lesson name>'
+		
+		GridLayout:
+			cols:3
+		
+			GridLayout:
+				rows:3
+				
+				Label:
+					font_size: dp(root.width*root.height*0.000045)
+					text: 'Accuracy'
+					
+				Label:
+					id: accuracy
+					font_size: dp(root.width*root.height*0.000045)
+					text: '###'
+					
+				Label:
+					text: ''
+					
+			GridLayout:
+				rows: 3
+				
+				Label:
+					font_size: dp(root.width*root.height*0.000045)
+					text: 'Average WPM'
+					
+				Label:
+					id: wpm
+					font_size: dp(root.width*root.height*0.000045)
+					text: '###'
+					
+				Label:
+					text: ''
+					
+			GridLayout:
+				rows: 3
+				
+				Label:
+					font_size: dp(root.width*root.height*0.000045)
+					text: 'Idle Time'
+					
+				Label:
+					id: idleTime
+					font_size: dp(root.width*root.height*0.000045)
+					text: '##:##'
+				
+				Label:
+					text: ''
+		
+		GridLayout:
+			cols: 3
+			
+			GridLayout:
+				cols: 1
+				padding: [root.width*0.01,root.height*0.015,root.width*0.015,root.height*0.015]
+				Button:
+					text: 'Change Password'
+					on_press: root.changePassword()
+				
+			
+			GridLayout:
+				cols: 1
+				padding: [root.width*0.01,root.height*0.015,root.width*0.015,root.height*0.015]
+				Button:
+					text: 'Typing History'
+					on_press: root.typingHistory()
+			
+			GridLayout:
+				cols: 1
+				padding: [root.width*0.015,root.height*0.015,root.width*0.01,root.height*0.015]
+				Button:
+					text: 'Games'
+					on_press: root.Games()

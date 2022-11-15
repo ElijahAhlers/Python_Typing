@@ -1,0 +1,1 @@
+Shift for # and &.  Recall:# stands for number and pounds.  Names joined by & require spaces; a # sign alone does, also.  Letters joined by & are keyed solid:  List Stock #3 as C&NW.  I bought 10# of #830 grass seed from Locke & Uhl on March 3.

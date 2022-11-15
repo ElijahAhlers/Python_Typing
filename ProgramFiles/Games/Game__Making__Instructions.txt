@@ -1,0 +1,78 @@
+Instructions to make your own game and add it to the typing program:
+
+First things first, you shouldn't do your development inside the typing program for two reasons:
+    1: It takes forever to get to your game while debugging
+    2: If there is a syntax or import error in your code, none of the games will work
+
+I would recommend making your own kivy app to put your layout in and fixing the imports later
+
+
+Here are the rules for your game:
+
+1: File tree:
+
+When building your game, everything your game requires must go into one folder labeled whatever you
+want your game named.  That way, your code stays organized and our program knows what to do with it
+
+You also must have your main file named the same as your folder
+
+Lastly, you must have your root kivy game layout defined as a class called: {Your game here}_Layout
+where {Your game here} is the name of your folder and file
+
+2: Stuff I give you:
+
+When I initialize your game, I pass you my manager object.  This allows you to easily record your results
+and switch away from your game when you need to.
+
+Make sure you keep this manager reference for future use in your game
+
+3: Stuff you can do
+
+By giving you the manager object, I allow you to simply record results and switch away from your window
+
+Whenever you want to switch away, just call manager.leave_me()
+
+This will send the user back to the games menu
+
+This does not close your window, and upon re-entry, everything will be as you left it
+
+I leave the resetting up to you
+
+
+You also don't have to worry about dealing with our results file tree.
+
+When it is time to record results, just call manager.record_results()
+
+This takes a few parameters, looking like this:
+manager.record_results(
+    Name of Game as string,
+    Score of game as number,
+    Time spent playing game as number in seconds)
+
+You are required to keep track of how long your game was played.
+
+4: Importing
+
+When all is said and done, you need to change all your imports
+
+To import anything in your file, you need to go through Games.Your Game
+
+Example:
+    from Games.Zerg_Rush.Modules import MyModule
+
+To access any file, you need to go through Games/Your Game
+
+Example:
+    open('Games/Zerg_Rush/MyFile.txt')
+
+
+That's it!  Your done!
+
+
+Notes:
+
+If you are having errors with ids in kivy, try to define your ids as global
+
+TechWithTim.net has awesome kivy tutorials in which he shows you how to do that
+
+Happy Coding!
