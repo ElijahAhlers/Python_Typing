@@ -1,0 +1,155 @@
+<Lesson@Button>:
+    screen: None
+    text: 'Lesson Name'
+    text_size: self.size
+    lesson_number: 0
+    location: None
+    halign: 'left'
+    valign: 'middle'
+    padding: [5,5]
+    on_press: root.screen.select_lesson(self)
+
+<LessonSelectScreen>:
+
+    GridLayout:
+    	cols: 1
+
+    	GridLayout:
+    		rows: 6
+
+    		GridLayout:
+    			cols:2
+
+    			Label:
+    				font_size: dp(root.width*root.height*0.00013)
+    				text: 'Typing Home'
+
+    			GridLayout:
+    				cols: 1
+				    padding: [root.width*0.3,root.height*0.05,root.width*0.05,root.height*0.05]
+
+			    	Button:
+			    	    on_press: root.get_root_window().close()
+			    	    text: 'Exit'
+
+		    GridLayout:
+	    		cols: 3
+			
+    			Label:
+    				font_size: dp(root.width*root.height*0.00007)
+    				text: 'Next Lesson'
+			
+		    	GridLayout:
+		    		rows: 1
+		    		padding: [root.width*0.1,0,0,0]
+		    		Label:
+		    			id: nextlesson
+	    				font_size: dp(root.width*root.height*0.000045)
+    					text: '<nextlesson>'
+    					location: None
+
+    			GridLayout:
+    				cols: 1
+    				padding: [root.width*0.15,root.height*0.05,root.width*0.05,root.height*0.05]
+    				Button:
+    					text: 'Begin'
+    					on_press: root.select_lesson(root.ids.nextlesson)
+		
+		    GridLayout:
+			    cols:2
+			
+			    Label:
+				    font_size: dp(root.width*root.height*0.00008)
+				    text: 'All Lessons'
+			
+			    RecycleView:
+                    id: selectable_lessons
+                    viewclass: 'Lesson'
+                    size_hint_y: .8
+                    data: []
+
+                    RecycleBoxLayout:
+                        default_size: None, dp(23)
+                        default_size_hint: 1, None
+                        size_hint_y: None
+                        height: self.minimum_height
+                        orientation: 'vertical'
+
+
+    		GridLayout:
+    			cols:1
+
+    			Label:
+    				id: lastlesson
+    				font_size: dp(root.width*root.height*0.000065)
+    				text: 'Last time, you typed <lesson name>'
+
+    		GridLayout:
+    			cols:3
+
+    			GridLayout:
+    				rows:3
+
+    				Label:
+    					font_size: dp(root.width*root.height*0.000045)
+    					text: 'Accuracy'
+
+    				Label:
+    					id: accuracy
+    					font_size: dp(root.width*root.height*0.000045)
+    					text: '###'
+
+    				Label
+
+    			GridLayout:
+    				rows: 3
+
+    				Label:
+    					font_size: dp(root.width*root.height*0.000045)
+    					text: 'Average WPM'
+					
+		    		Label:
+		    			id: wpm
+		    			font_size: dp(root.width*root.height*0.000045)
+		    			text: '###'
+
+		    		Label
+
+		    	GridLayout:
+			    	rows: 3
+
+		    		Label:
+	    				font_size: dp(root.width*root.height*0.000045)
+	    				text: 'Idle Time'
+
+	    			Label:
+	    				id: idleTime
+	    				font_size: dp(root.width*root.height*0.000045)
+	    				text: '##:##'
+
+	    			Label
+
+	    	GridLayout:
+	    		cols: 3
+
+	    		GridLayout:
+	    			cols: 1
+	    			padding: [root.width*0.01,root.height*0.015,root.width*0.015,root.height*0.015]
+	    			Button:
+	    				text: 'Change Password'
+    					on_press: root.change_password()
+				
+			
+	    		GridLayout:
+	    			cols: 1
+	    			padding: [root.width*0.01,root.height*0.015,root.width*0.015,root.height*0.015]
+	    			Button:
+		    			text: 'Typing History'
+	    				on_press: root.typing_history()
+
+    			GridLayout:
+    				cols: 1
+    				padding: [root.width*0.015,root.height*0.015,root.width*0.01,root.height*0.015]
+    				Button:
+    					text: 'Games'
+    					on_press: root.games()

@@ -1,0 +1,108 @@
+<LessonResult@GridLayout>:
+    lesson: 'hi'
+    accuracy: 'hi'
+    wpm: 'hi'
+    idle_time: 'hi'
+    cols: 4
+
+    Label:
+        text: root.lesson
+        size_hint_x: .55
+        text_size: self.size
+        halign: 'left'
+        valign: 'middle'
+        padding: [5,5]
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.accuracy
+        size_hint_x: .15
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.wpm
+        size_hint_x: .15
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.idle_time
+        size_hint_x: .15
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+	
+<HistoryScreen>
+
+    BoxLayout:
+    	orientation: 'vertical'
+
+    	BoxLayout:
+    		orientation: 'horizontal'
+    		size_hint_y: 0.1
+    		GridLayout:
+    			cols: 1
+    			size_hint_x: 0.7
+    			Label:
+    				id: name
+    				font_size: '40sp'
+    				text: 'Typing History'
+    		GridLayout:
+    			cols: 2
+    			size_hint_x: 0.3
+    			Button:
+    				text: 'Refresh'
+    				on_press: root.populate()
+    			Button:
+    				text: 'Exit'
+    				on_press: root.exit()
+
+        GridLayout:
+            cols: 3
+
+            Label:
+                size_hint_x: .1
+                text: ''
+
+    	    GridLayout:
+    	        size_hint_x: .8
+    	        rows: 2
+
+    	        LessonResult:
+    	            size_hint_y: .05
+    	            lesson: 'Lesson'
+    	            accuracy: 'Accuracy'
+    	            wpm: 'WPM'
+    	            idle_time: 'Idle Time'
+
+	            RecycleView:
+	                size_hint_y: .95
+                    id: lesson_results
+                    viewclass: 'LessonResult'
+                    data: []
+
+                    RecycleBoxLayout:
+                        default_size: None, dp(23)
+                        default_size_hint: 1, None
+                        size_hint_y: None
+                        height: self.minimum_height
+                        orientation: 'vertical'
+            Label:
+                size_hint_x: .1
