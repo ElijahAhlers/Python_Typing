@@ -3,24 +3,24 @@ from Logic.CSVFuncs import readCSVFile
 
 
 class Day():
-    def __init__(self, LessonName, LessonLocation):
+    def __init__(self, name, LessonLocation):
         self.files = readCSVFile(open('Save Location.txt').read()+'TypingFiles/Lessons/'+LessonLocation+'.csv')
         lessonNames = readCSVFile(open('Save Location.txt').read()+'TypingFiles/LessonList.csv')
-        self.lessonlist = []
-        self.lessonName = LessonName
+        self.lesson_list = []
+        self.name = name
         for num in range(len(lessonNames)):
-            if lessonNames[num]['Name'] == LessonName:
+            if lessonNames[num]['Name'] == name:
                 self.lessonNumber = num
                 break
 
         for dic in self.files:
-            self.lessonlist.append(
+            self.lesson_list.append(
                 Lesson(
                     open(open('Save Location.txt').read()+'TypingFiles/LessonParts/'+
                          dic['Lesson']+'.txt', 'r').read(), bool(int(dic['Backspace'])),
                     bool(int(dic['Forced100'])), int(dic['Time']), dic['Lesson'], int(dic['Part'])
                     ))
-        self.numOfLessons = len(self.lessonlist)
+        self.numOfLessons = len(self.lesson_list)
                     
             
 class Lesson:

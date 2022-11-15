@@ -4,21 +4,21 @@ import traceback
 import logging
 
 # Do stuff for log files
-# if not os.path.isdir(str(open('Save Location.txt','r').read())+'Logs/'+str(date.today().strftime("%m-%d-%Y"))):
-#     os.mkdir(str(open('Save Location.txt','r').read())+'Logs/'+str(date.today().strftime("%m-%d-%Y")))
-#
-# logName = str(str(open('Save Location.txt','r').read())+'Logs\\'+str(date.today().strftime("%m-%d-%Y"))+'\\TypingConsole___'+str(os.getlogin())+'___'+datetime.now().strftime("%d-%m-%Y___%H_%M_%S")+'.log')
-# logging.basicConfig(filename=logName)
+#if not os.path.isdir(str(open('Save Location.txt','r').read())+'Logs/'+str(date.today().strftime("%m-%d-%Y"))):
+#    os.mkdir(str(open('Save Location.txt','r').read())+'Logs/'+str(date.today().strftime("%m-%d-%Y")))
+
+#logName = str(str(open('Save Location.txt','r').read())+'Logs\\'+str(date.today().strftime("%m-%d-%Y"))+'\\TypingConsole___'+str(os.getlogin())+'___'+datetime.now().strftime("%d-%m-%Y___%H_%M_%S")+'.log')
+#logging.basicConfig(filename=logName)
 
 
 # Get rid of kivy info text
 # os.environ["KIVY_NO_CONSOLELOG"] = '1'
 
 # Checks for update, then updates program if needed
-# if open('Save Location.txt').read()[-1] is not 's':
-#     if str(open(open('Save Location.txt').read()+'/Version.txt').read()) != str(open('Version.txt').read()):
-#         partial(os.system,'"Update Program.py"')()
-#         exit('Finished Updating')
+#if open('Save Location.txt').read()[-1] is not 's':
+#    if str(open(open('Save Location.txt').read()+'/Version.txt').read()) != str(open('Version.txt').read()):
+#        partial(os.system,'"Update Program.py"')()
+#        exit('Finished Updating')
 
 # Kivy stuff
 from kivy.app import App
@@ -101,3 +101,5 @@ try:
     app.run()
 except Exception as error:
     logging.info(traceback.format_exc())
+    print(error)
+    input()

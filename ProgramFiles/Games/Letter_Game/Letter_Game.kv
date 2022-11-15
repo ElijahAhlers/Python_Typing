@@ -39,6 +39,7 @@
 
 
 			GridLayout:
+			    id: letter_selection_buttons
 				size_hint_y: 0.6
 				padding: [root.width*0.02,0,root.width*0.02,root.width*0.02]
 				cols: 2
@@ -74,6 +75,7 @@
 					id: Cap
 					text: 'Add Capital\nLetters'
 					letters: 7
+					disabled: True
 				SelectionButton:
 					id: Num
 					text: 'Add Numbers'

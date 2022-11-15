@@ -45,7 +45,7 @@ class MenuScreen(Screen):
 
             self.ids.all_results.data = [
                          {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
-                     ] + sorted(data, key=lambda x: (x['date'],x['time_of_day']), reverse=True)
+                     ] + sorted(data, key=lambda x: (x['date'].split('-')[2],x['date'],x['time_of_day']), reverse=True)
 
             self.ids.best_results.data = [
                           {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}

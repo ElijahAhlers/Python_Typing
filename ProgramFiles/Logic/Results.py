@@ -9,11 +9,12 @@ import os
 class Results:
 
     def __init__(self, day, user):
+        print(day.name)
         self.firstname = user.firstName
         self.lastname = user.lastName
         self.registered = user.registered
         self.username = user.username
-        self.name = day.lessonName
+        self.name = day.name
         self.todaysResults = []
         self.totalFileIdleTime = 0
         self.totalResultsIdleTime = 0

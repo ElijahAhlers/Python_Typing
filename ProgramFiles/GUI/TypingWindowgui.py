@@ -202,7 +202,7 @@ class TypingWindow(Screen):
         if not fileExists(file):
             os.mkdir(file)
 
-        file += '/'+str(date.today())+self.manager.day.lessonName+'.csv'
+        file += '/'+str(date.today())+self.manager.day.name+'.csv'
 
         if fileExists(file):
             writeToCSVFile(file, [{'Lesson': self.manager.lesson.filename,

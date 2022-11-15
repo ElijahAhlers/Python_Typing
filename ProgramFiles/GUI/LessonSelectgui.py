@@ -29,7 +29,8 @@ def find_next_lesson(yesterday_lesson):
             pass
     return lesson_list[today_lesson]['Name']
 
-def find_lesson_location(lesson):
+
+def find_lesson(lesson):
     lesson_list = ce.readCSVFile(str(open('Save Location.txt').read()) + '/TypingFiles/LessonList.csv')
     lesson_num = 0
     for i in range(len(lesson_list)):
@@ -38,7 +39,7 @@ def find_lesson_location(lesson):
             break
         else:
             pass
-    return lesson_list[lesson_num]['Location']
+    return lesson_list[lesson_num]['Location'], lesson_list[lesson_num]['Name']
 
 
 class HomeWindow(Screen):
@@ -55,12 +56,13 @@ class HomeWindow(Screen):
         raw_data = ce.readCSVFile(open('Save Location.txt').read() + 'TypingFiles/LessonList.csv')
         self.ids.selectable_lessons.data = [
             {
-                'text': 'Lesson {: >2}: {}'.format(num, lesson['Name']),
-                'location': lesson['Location'],
-                'lesson_number': num,
+                'text': '{}: {}'.format(day['Number'], day['Name']),
+                'location': day['Location'],
+                'lesson_number': day['Number'].split(' ')[-1],
+                'name': day['Name'],
                 'screen': self
             }
-            for num, lesson in enumerate(raw_data)]
+            for day in raw_data]
 
     def fill_in_stats(self):
         path = open('Save Location.txt').read() + 'UserData/' + self.user.username + '/history.csv'
@@ -70,19 +72,20 @@ class HomeWindow(Screen):
             self.ids.accuracy.text = str(all_file_history[-1]['Accuracy'] + '%')
             self.ids.wpm.text = str(all_file_history[-1]['WPM'])
             self.ids.idleTime.text = str(all_file_history[-1]['Idle Time'])
+
             if all_file_history[-1]['Lesson'] != 'TestyThingamabob':
                 self.ids.nextlesson.text = find_next_lesson(all_file_history[-1]['Lesson'])
-                self.ids.nextlesson.location = find_lesson_location(self.ids.nextlesson.text)
+                self.ids.nextlesson.location, self.ids.nextlesson.name = find_lesson(self.ids.nextlesson.text)
             else:
                 self.ids.nextlesson.text = 'TestyThingamabob'
-                self.ids.nextlesson.location = find_lesson_location('TestyThingamabob')
+                self.ids.nextlesson.location, self.ids.nextlesson.name = find_lesson('TestyThingamabob')
 
     def select_lesson(self, selected_button):
-        new_day = MakeDay(selected_button.text[11:], selected_button.location)
+        new_day = MakeDay(selected_button.name, selected_button.location)
         self.manager.day = new_day
         self.manager.resultsObject = Results(new_day, self.manager.user)
         self.manager.nextLesson = 0
-        self.manager.lesson = self.manager.day.lessonlist[self.manager.nextLesson]
+        self.manager.lesson = self.manager.day.lesson_list[self.manager.nextLesson]
         self.manager.current = 'TypingWindow'
         self.manager.get_screen('TypingWindow').start_lesson()
 

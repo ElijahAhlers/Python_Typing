@@ -182,8 +182,6 @@ class Letter_Game_Layout(BoxLayout):
         self.keyboard = Window.request_keyboard(None,self,'string')
         self.keyboard.bind(on_key_down=self.letterGrid.letter_pressed)
         self.exit_button.text = 'End Game'
-        print(self.ids.BeginButton.on_press)
-        print('begin')
         self.valueStarted = self.ids.difficulty.value
         self.time = self.ids.difficulty.value
         self.ids.BeginButton.disabled = True
@@ -226,20 +224,23 @@ class Letter_Game_Layout(BoxLayout):
                                            i not in letters]
                 if len(self.letterGrid.letters) == 0:
                     self.letterGrid.letters.append(' ')
-                    self.ids.BeginButton.disabled = True
-                    self.ids.Cap.disabled = True
             else:
                 if self.letterGrid.letters[0] == ' ':
                     self.letterGrid.letters.remove(' ')
                     self.letterGrid.letters += letters
                 else:
                     self.letterGrid.letters += [letter for letter in letters]
-                self.ids.BeginButton.disabled = False
-                self.ids.Cap.disabled = False
         else:
             self.letterGrid.caps = not self.letterGrid.caps
         self.letterGrid.make_answers()
         self.letterGrid.fill_letters()
+
+        selection_button_states = [x.state for x in self.ids.letter_selection_buttons.children]
+
+        self.ids.BeginButton.disabled = not (selection_button_states[3:9].count('down') >= 2 or (
+                selection_button_states[:2]+[selection_button_states[9]]).count('down'))
+        self.ids.Cap.disabled = not selection_button_states[5:].count('down')
+
 
     def reset_game_board(self):
         self.set_selector_buttons(False)

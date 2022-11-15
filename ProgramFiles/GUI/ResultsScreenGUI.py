@@ -59,7 +59,7 @@ class ResultsWindow(Screen):
         self.wpm = round(sum([x['wpm'] for x in results]) // len(results), 1)
         self.ids.averageaccuracy.text = str(self.accuracy)+'%'
         self.ids.averagewpm.text = str(self.wpm)
-        self.redo_button = len(results) == len(self.manager.day.lessonlist)
+        self.redo_button = len(results) == len(self.manager.day.lesson_list)
         if self.redo_button:
             self.ids.nextLessonButton.text = 'Redo Yellow Lesson'
             worst = 0
@@ -108,7 +108,7 @@ class ResultsWindow(Screen):
                 path,
                 [{
                     'Date': date.today().strftime("%m/%d/%y"),
-                    'Lesson': self.manager.day.lessonName,
+                    'Lesson': self.manager.day.name,
                     'Accuracy': round(self.accuracy, 0),
                     'WPM': round(self.wpm, 0),
                     'Idle Time': self.idleTime
@@ -152,7 +152,7 @@ class ResultsWindow(Screen):
         self.keyboard.unbind(on_key_down=self.pressed_letter)
         self.manager.resultsObject.totalResultsIdleTime += self.idleTimeOnThisScreen
         self.manager.resultsObject.totalIdleTime += self.idleTimeOnThisScreen
-        self.manager.lesson = self.manager.day.lessonlist[self.manager.nextLesson]
+        self.manager.lesson = self.manager.day.lesson_list[self.manager.nextLesson]
         self.manager.get_screen('TypingWindow').start_lesson()
         self.manager.current = 'TypingWindow'
 
