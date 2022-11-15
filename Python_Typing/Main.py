@@ -7,6 +7,7 @@ from kivy.uix.screenmanager import ScreenManager, NoTransition
 from kivy.core.window import Window
 from kivy.config import Config
 from kivy.lang import Builder
+import os
 
 # Stuff we made
 from GUI.Login import LoginScreen
@@ -34,7 +35,6 @@ for kv_file in kv_files:
     Builder.load_file(f'GUI/{kv_file}')
 Builder.load_file(f'Games/Games_Menu.kv')
 
-
 class Manager(ScreenManager):
 
     day = None
@@ -45,7 +45,7 @@ class Manager(ScreenManager):
     doneWithLessons = False
     resultsObject = None
     lesson = None
-    save_location = open('Save Location.txt').read()
+    save_location = os.getcwd()[:-len('Python_Typing')]+'/Data'
 
     def populate(self):
         for screen in ['Lesson Select', 'Typing', 'Results', 'History', 'Change Password', 'Games Menu Manager']:
