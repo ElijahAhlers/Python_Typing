@@ -1,0 +1,134 @@
+INFO:kivy:Logger: Record log in C:\Users\willowspurling\.kivy\logs\kivy_21-09-09_0.txt
+INFO:kivy:deps: Successfully imported "kivy_deps.angle" 0.1.9
+INFO:kivy:deps: Successfully imported "kivy_deps.glew" 0.1.12
+INFO:kivy:deps: Successfully imported "kivy_deps.sdl2" 0.1.22
+INFO:kivy:Kivy: v1.11.1
+INFO:kivy:Kivy: Installed at "C:\Program Files (x86)\Python37-32\lib\site-packages\kivy\__init__.py"
+INFO:kivy:Python: v3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)]
+INFO:kivy:Python: Interpreter at "C:\Program Files (x86)\Python37-32\python.exe"
+INFO:kivy:Factory: 184 symbols loaded
+INFO:kivy:Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+INFO:kivy:Window: Provider: sdl2
+INFO:kivy:GL: Using the "OpenGL" graphics system
+INFO:kivy:GL: GLEW initialization succeeded
+INFO:kivy:GL: Backend used <glew>
+INFO:kivy:GL: OpenGL version <b'4.6.0 - Build 27.20.100.8681'>
+INFO:kivy:GL: OpenGL vendor <b'Intel'>
+INFO:kivy:GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+INFO:kivy:GL: OpenGL parsed version: 4, 6
+INFO:kivy:GL: Shading version <b'4.60 - Build 27.20.100.8681'>
+INFO:kivy:GL: Texture max size <16384>
+INFO:kivy:GL: Texture max units <32>
+INFO:kivy:Window: auto add sdl2 input provider
+INFO:kivy:Window: virtual keyboard not allowed, single mode, not docked
+INFO:kivy:Text: Provider: sdl2
+INFO:kivy:GL: NPOT texture support is available
+INFO:kivy:Base: Start application main loop
+INFO:kivy:got here and printed
+INFO:kivy:Loader: using a thread pool of 2 workers
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x107E5030> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01CE1500> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01795228> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0482BA78> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F000500> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x017A2458> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x017D9EA0> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10462068> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10469AB0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0EFC7650> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1116F5A8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x11152538> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01B59340> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01B5FD88> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x106D4928> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0EFDB8F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x017B1378> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10C4D490> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10C4AED8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x10A73A78> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10A79490> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10A79E30> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10A82880> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01B531F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x047A9C38> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0F0347D8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10BF4F48> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10A6B308> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x106828F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x106A7308> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x106A7CA8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10685ED8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x104611F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0EFCD8B8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0EFE2688> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0EFE21F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x105D7810> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x105DE260> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x017CD5A8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x017CE030> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x106120A0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x106215A8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1045A7A0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1047DDC0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x01CE5960> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x01CF6378> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10563A08> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1053F490> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x1045E030> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1045EA08> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The Exit Function got called
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x10BF7030> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x106C9A78> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x017F8618> have no cols or rows set, layout is not triggered.
+INFO:kivy:The Exit Function got called

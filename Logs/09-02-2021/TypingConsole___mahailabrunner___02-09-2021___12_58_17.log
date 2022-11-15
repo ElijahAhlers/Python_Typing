@@ -1,0 +1,1389 @@
+INFO:kivy:Logger: Record log in C:\Users\mahailabrunner\.kivy\logs\kivy_21-09-02_1.txt
+INFO:kivy:deps: Successfully imported "kivy_deps.angle" 0.1.9
+INFO:kivy:deps: Successfully imported "kivy_deps.glew" 0.1.12
+INFO:kivy:deps: Successfully imported "kivy_deps.sdl2" 0.1.22
+INFO:kivy:Kivy: v1.11.1
+INFO:kivy:Kivy: Installed at "C:\Program Files (x86)\Python37-32\lib\site-packages\kivy\__init__.py"
+INFO:kivy:Python: v3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)]
+INFO:kivy:Python: Interpreter at "C:\Program Files (x86)\Python37-32\python.exe"
+INFO:kivy:Factory: 184 symbols loaded
+INFO:kivy:Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+INFO:kivy:Window: Provider: sdl2
+INFO:kivy:GL: Using the "OpenGL" graphics system
+INFO:kivy:GL: GLEW initialization succeeded
+INFO:kivy:GL: Backend used <glew>
+INFO:kivy:GL: OpenGL version <b'4.6.0 - Build 27.20.100.8681'>
+INFO:kivy:GL: OpenGL vendor <b'Intel'>
+INFO:kivy:GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+INFO:kivy:GL: OpenGL parsed version: 4, 6
+INFO:kivy:GL: Shading version <b'4.60 - Build 27.20.100.8681'>
+INFO:kivy:GL: Texture max size <16384>
+INFO:kivy:GL: Texture max units <32>
+INFO:kivy:Window: auto add sdl2 input provider
+INFO:kivy:Window: virtual keyboard not allowed, single mode, not docked
+INFO:kivy:Text: Provider: sdl2
+INFO:kivy:GL: NPOT texture support is available
+INFO:kivy:Base: Start application main loop
+INFO:kivy:got here and printed
+INFO:kivy:Loader: using a thread pool of 2 workers
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x03AF4CA8> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00E33E68> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F7F0340> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00AC1490> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00AFBB90> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x112DBC70> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x112F26F8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x1130F298> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x03A42D50> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x03A577D8> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x009B63E8> have no cols or rows set, layout is not triggered.
+INFO:kivy:The manager's "done with lessons" tag returned False
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00BEB308> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00CB6D50> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x00CBC8F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00CA4308> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00CA4CA8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F886110> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F8A8B58> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0D0854C8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0D085308> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0D0BF7A0> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x112757A0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x11283228> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x1150DD88> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x115127A0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x11516180> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1151CB90> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F7EBD88> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0091F810> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0F7933B0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F793D88> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F7AE768> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F79C1B8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x11369C70> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x113756F8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0F8BA298> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F8BAC70> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F897650> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F8910A0> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x03A2E298> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x03A252D0> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00DF3378> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00B3ADC0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x00B06960> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00B3DB90> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F7B98F0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F78F378> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x00C20DF8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x009D4D50> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0D1E57D8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0D1D6F10> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x11334F10> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0397D0A0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00DD4AE8> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x00C06148> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00BF2068> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00DFC030> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x13652CE0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x136376F8> have no cols or rows set, layout is not triggered.
+INFO:kivy:determine redo is true in Results window
+INFO:kivy:The manager's "done with lessons" tag returned True
+INFO:kivy:10
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x113F9D88> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1127C500> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x1127C500> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<GUI.ResultsScreenGUI.Chart object at 0x0D04B9D0> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0D04BF48> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x00E00378> have no cols or rows set, layout is not triggered.
+WARNING:kivy:<kivy.uix.gridlayout.GridLayout object at 0x0F451260> have no cols or rows set, layout is not triggered.
+INFO:kivy:The Exit Function got called
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+CRITICAL:kivy:Clock: Warning, too much iteration done before the next frame. Check your code, or increase the Clock.max_iteration attribute
+ERROR:kivy:Base: No event listeners have been created
+ERROR:kivy:Base: Application will leave
+INFO:kivy:WindowSDL: exiting mainloop and closing.

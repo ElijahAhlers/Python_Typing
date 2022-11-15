@@ -1,0 +1,189 @@
+<ChartRow@GridLayout>:
+    name: 'hi'
+    date: 'hi'
+    score: 'hi'
+    time: 'hi'
+    cols:4
+    Label:
+        text: root.name
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.date
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.score
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.time
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+#This is the same as ChartRow, but the date comes first.  There is probably a better way to do this, but i couldn't think of it.
+<ChartRow2@GridLayout>:
+    name: 'hi'
+    date: 'hi'
+    score: 'hi'
+    time: 'hi'
+    cols:4
+
+    Label:
+        text: root.date
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.name
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.score
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+    Label:
+        text: root.time
+        canvas.before:
+            Color:
+                rgba: (1,1,1,1)
+            Line:
+                width: 1.1
+                rectangle: self.x, self.y, self.width, self.height
+
+<MenuScreen>:
+
+	BoxLayout:
+		orientation: 'vertical'
+		
+		Label:
+			size_hint_y: 0.1
+			font_size: '30sp'
+			text: 'Typing Games'
+		
+		GridLayout:
+			cols: 2
+			size_hint_y: 0.8
+			
+			GridLayout:
+				cols: 3
+				padding: [root.width*0.02,root.height*0.02,root.width*0.02,root.height*0.02]
+				size_hint_x: .7
+				id: GameGrid
+			
+			GridLayout:
+				cols: 1
+				size_hint_x: .3
+
+				GridLayout:
+				    size_hint_y: .35
+				    rows: 2
+
+				    Label:
+				        size_hint_y: .2
+				        text: 'Best Results'
+					
+                    RecycleView:
+                        id: best_results
+                        viewclass: 'ChartRow'
+                        size_hint_y: .8
+                        data: []
+
+                        RecycleBoxLayout:
+                            default_size: None, dp(23)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical'
+
+				Label:
+				    size_hint_y: .05
+
+				GridLayout:
+				    size_hint_y: .7
+				    rows: 2
+
+				    Label:
+				        size_hint_y: .1
+				        text: 'All Results'
+
+                    RecycleView:
+                        id: all_results
+                        viewclass: 'ChartRow2'
+                        size_hint_y: .9
+                        data: []
+
+                        RecycleBoxLayout:
+                            default_size: None, dp(23)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical'
+			
+		Button:
+			size_hint_y: 0.1
+			text: 'Exit'
+			on_press: root.exit()
+			
+		
+<GameLayout>:
+    cols:1
+	button: button
+	description: description
+
+	GridLayout:
+	    size_hint_x: .9
+	    rows: 2
+	
+        Button:
+            id: button
+            size_hint_y: .25
+            text: ''
+            on_press: root.pressed(self.text)
+
+        Label:
+            id: description
+            size_hint_y: .65
+            font_size: '20sp'
+            text_size: self.size
+            text: ''
+            valign: 'top'
+
+        Label:
+            size_hint_y: .1
+
+    Label:
+        size_hint_x: .1
