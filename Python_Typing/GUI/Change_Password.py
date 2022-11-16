@@ -36,4 +36,4 @@ class ChangePasswordScreen(Screen):
             self.go_back_to_lesson_select()
 
     def go_back_to_lesson_select(self):
-        self.manager.current = 'Lesson Select'
+        self.manager.current = 'Part Select'

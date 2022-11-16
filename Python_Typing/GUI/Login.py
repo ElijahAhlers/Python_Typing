@@ -18,11 +18,10 @@ class User:
     hashed_password: str = None
     registered: bool = None
     admin: bool = None
+    history_folder: str = None
 
     def __post_init__(self):
-        with csv_object(f'{self.path_to_data}/UserData/user_data.csv') as usernames_file:
-            print(usernames_file.filename)
-            print(usernames_file.body)
+        with csv_object(f'{self.path_to_data}/user_data.csv') as usernames_file:
             try:
                 index = [entry['username'] for entry in usernames_file.body].index(self.username)
                 self.first_name = usernames_file.body[index]['first_name']
@@ -30,11 +29,17 @@ class User:
                 self.hashed_password = usernames_file.body[index]['password']
                 self.registered = bool(int(usernames_file.body[index]['registered']))
                 self.admin = bool(int(usernames_file.body[index]['admin']))
-            except IndexError:
+                self.history_folder = f'{self.path_to_data}/User_History/{self.username}'
+            except ValueError:
                 pass
 
     def check_password(self, password):
-        return self.hashed_password == hashlib.sha256(password.encode('utf-8')).hexdigest()
+        if self.hashed_password == hashlib.sha256(password.encode('utf-8')).hexdigest():
+            history_folder_path = f'{self.path_to_data}/User_History'
+            if not os.path.isdir(history_folder_path):
+                os.mkdir(history_folder_path)
+            return True
+        return False
 
 
 class LoginScreen(Screen):
@@ -42,20 +47,14 @@ class LoginScreen(Screen):
 
     def populate(self):
         self.ids.username.text = str(os.getlogin())
-        self.ids.notifyupdate.text = 'Software version:\nYes, you are indeed\nrunning software'
-
-    def ExitButton(self):
-        self.get_root_window().close()
         
     def Authenticate(self):
         user = User(self.ids.username.text.lower(), self.manager.save_location)
         print(user)
         if user.check_password(self.ids.password.text):
             self.manager.user = user
-            print('successful login')
-            return
             self.manager.populate()
-            self.manager.current = 'Lesson Select'
+            self.manager.current = 'Part Select'
             return
         self.ids.incpass.text = 'Incorrect Username\nor Password'
         self.ids.incpass.color = 1, 0, 0, 1

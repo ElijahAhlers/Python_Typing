@@ -1,16 +1,10 @@
 # Python Standard Library
-from datetime import date
 import time
-from os.path import exists as fileExists
-import os
 
 # Kivy stuff
 from kivy.uix.screenmanager import Screen
 from kivy.core.window import Window
 from kivy.clock import Clock
-
-# Stuff we made
-from csv_object import csv_object
 
 
 def calculate_real_wpm(total_letters, correct_letters, elapsed_time):
@@ -46,7 +40,7 @@ class TypingScreen(Screen):
 
     typed_letters = []
     on_screen_letters = []
-    fileIdleTime = 0
+    file_idle_time = 0
     accuracy = 100
     rawWPM = 0
     realWPM = 0
@@ -57,48 +51,48 @@ class TypingScreen(Screen):
     time_left = None
     lesson_letters = None
     keyboard = None
+    lesson = None
 
     def populate(self):
-        pass
+        self.ids.firstname.text = self.manager.user.first_name
+        self.ids.lastname.text = self.manager.user.last_name
 
     def start_lesson(self):
         Window.fullscreen = 'auto'
-        self.ids.lessonNum.text = 'Lesson '+str(self.manager.lesson.part+1)+' of '+str(len(self.manager.day.files))
-        self.total_time = self.time_left = self.manager.lesson.time
-        self.lesson_letters = [character for character in self.manager.lesson.text]+[' ']
-        self.ids.firstname.text = self.manager.user.first_name
-        self.ids.lastname.text = self.manager.user.last_name
-        self.ids.filename.text = self.manager.lesson.filename
+        self.lesson = self.manager.lesson.lesson_list[self.manager.next_lesson]
+        self.ids.lessonNum.text = f'Part {self.manager.next_lesson + 1} of {len(self.manager.lesson.lesson_list)}'
+        self.total_time = self.time_left = self.lesson.time
+        self.lesson_letters = [character for character in self.lesson.text] + [' ']
+        self.ids.filename.text = self.lesson.name
 
         # set up key presses
-        self.keyboard = Window.request_keyboard(None, self, 'string')
-        self.keyboard.bind(on_key_down=self.pressed_letter)
+        if not self.keyboard:
+            self.keyboard = Window.request_keyboard(None, self, 'string')
+            self.keyboard.bind(on_key_down=self.pressed_letter)
 
-        self.prep_screen()
-
-    def prep_screen(self):
         self.typed_letters = []
         self.on_screen_letters = []
         self.on_key_press = 0
-        self.ids.redo.disabled = True
-        self.time_left = self.manager.lesson.time
-        self.ids.givenText.text = ''.join(self.lesson_letters[:self.total_char_width])
-        self.ids.givenText.text += ' '*(self.total_char_width-len(self.ids.givenText.text))
         self.ids.typedText.text = ''
         self.ids.accuracy.text = '0'
         self.ids.rawwpm.text = '0'
         self.ids.realwpm.text = '0'
-        self.ids.time.text = '{:0>2}:{:0>2}'.format(self.time_left // 60, self.time_left % 60)
-        self.ids.percentcomplete.text = 'Percent complete: {:0>3.0%}'.format(0)
         self.ids.percentprogress.value = 0
-        self.ids.bsonoff.text = 'Backspace is ' + ('on' if self.manager.lesson.backspace else 'off')
-        self.ids.forced100.text = 'Forced Accuracy is ' + ('on' if self.manager.lesson.forced100 else 'off')
+        self.ids.redo.disabled = True
+        self.ids.percentcomplete.text = 'Percent complete: {:0>3.0%}'.format(0)
+
+        self.time_left = self.lesson.time
+        self.ids.givenText.text = ''.join(self.lesson_letters[:self.total_char_width])
+        self.ids.givenText.text += ' '*(self.total_char_width-len(self.ids.givenText.text))
+        self.ids.time.text = '{:0>2}:{:0>2}'.format(self.time_left // 60, self.time_left % 60)
+        self.ids.bsonoff.text = 'Backspace is ' + ('on' if self.lesson.backspace else 'off')
+        self.ids.forced100.text = 'Forced Accuracy is ' + ('on' if self.lesson.forced100 else 'off')
         if self.lesson_clock:
             self.lesson_clock.cancel()
         self.lesson_clock = Clock.schedule_interval(lambda dt: self.clock_update(), 1)
 
     def pressed_letter(self, keyboard, ascii_tuple, letter, modifiers):
-        if not self.manager.lesson.backspace:
+        if self.lesson.backspace:
             self.ids.redo.disabled = False
 
         if len(self.typed_letters) == len(self.lesson_letters):
@@ -109,11 +103,11 @@ class TypingScreen(Screen):
         elif 'capslock' in modifiers:
             letter = letter.upper() if 'shift' not in modifiers else letter
 
-        if ascii_tuple[1] == 'backspace' and self.manager.lesson.backspace and self.typed_letters:
+        if ascii_tuple[1] == 'backspace' and self.lesson.backspace and self.typed_letters:
             self.typed_letters = self.typed_letters[:-1]
         elif letter is not None and letter in self.acceptable_characters:
             letter_correct = letter == self.lesson_letters[len(self.typed_letters)]
-            if letter_correct or not self.manager.lesson.forced100:
+            if letter_correct or not self.lesson.forced100:
                 letter = '[color='+self.colors[
                     int(letter_correct)
                 ]+']'+letter+'[/color]'
@@ -150,7 +144,7 @@ class TypingScreen(Screen):
             if self.seconds_without_key_presses < self.secondsOfIdleTimeAllowed:
                 self.seconds_without_key_presses += 1
             else:
-                self.fileIdleTime += 1
+                self.file_idle_time += 1
         else:
             self.on_key_press = len(self.typed_letters)
             self.seconds_without_key_presses = 0
@@ -181,37 +175,25 @@ class TypingScreen(Screen):
         self.ids.rawwpm.text = str(raw_wpm)
         self.ids.realwpm.text = str(real_wpm)
         self.ids.time.text = '{:0>2}:{:0>2}'.format(self.time_left // 60, self.time_left % 60)
-        self.ids.idletime.text = '{:0>2}:{:0>2}'.format(self.fileIdleTime // 60, self.fileIdleTime % 60)
+        self.ids.idletime.text = '{:0>2}:{:0>2}'.format(self.file_idle_time // 60, self.file_idle_time % 60)
 
         if self.time_left == 0:
             self.Exit()
 
-    def recordResults(self):
-        file = self.manager.save_location+'UserData/'+self.manager.user.username+'/History'
-
-        if not fileExists(file):
-            os.mkdir(file)
-
-        file += '/'+str(date.today())+self.manager.day.name+'.csv'
-
-        with csv_object(file) as file:
-            file.header = ['Lesson', 'Accuracy', 'WPM', 'Idle Time']
-            file.body = [{'Lesson': self.manager.lesson.filename,
-                                   'Accuracy': self.accuracy,
-                                   'WPM': self.realWPM,
-                                   'Idle Time': self.fileIdleTime}]
-
-        self.manager.resultsObject.addResults(
-            lesson_name=self.manager.lesson.filename,
+    def record_results(self):
+        self.manager.results_object.add_new_result(
+            part=self.lesson,
             accuracy=self.accuracy,
             wpm=self.realWPM,
+            idle_time=self.file_idle_time
         )
-        self.manager.resultsObject.totalFileIdleTime += self.fileIdleTime
-        self.manager.resultsObject.totalIdleTime += self.fileIdleTime
+        self.manager.results_object.totalFileIdleTime += self.file_idle_time
+        self.manager.results_object.totalIdleTime += self.file_idle_time
 
     def Exit(self):
         self.keyboard.unbind(on_key_down=self.pressed_letter)
+        self.keyboard = None
         self.lesson_clock.cancel()
-        self.recordResults()
+        self.record_results()
         self.manager.current = 'Results'
-        self.manager.get_screen('Results').update_everything()
+        self.manager.get_screen('Results').update()

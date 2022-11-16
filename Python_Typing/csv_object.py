@@ -8,7 +8,7 @@ class csv_object:
 
         self.filename = filename
         self.header = header
-        self.body = None
+        self.body = []
 
         if filename and os.path.isfile(filename):
             with open(filename, 'r') as file_read:
@@ -24,7 +24,7 @@ class csv_object:
     def __exit__(self, *args):
         if self.header and self.body:
             with open(self.filename, 'w') as file_write:
-                file_write.write(','.join(self.header)+'\n'+','*len(self.header)+'\n')
+                file_write.write(','.join(self.header)+'\n\n')
                 for line in self.body:
                     file_write.write(','.join([str(line[header]) for header in self.header])+'\n')
 

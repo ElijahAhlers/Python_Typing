@@ -1,6 +1,5 @@
 <LoginScreen>:
-	
-	notifyupdate: notifyupdate
+
 	password: password
 	username: username
 	incpass: incpass
@@ -23,7 +22,7 @@
 				Button:
 					text: 'Exit'
 					font_size: int(root.width*root.height*0.00004)
-					on_press: root.ExitButton()
+					on_press: root.get_root_window().close()
 
 		GridLayout:
 			cols: 3
@@ -48,8 +47,7 @@
 					id: username
 
 			Label:
-				id: notifyupdate
-				text: 'Software Version ##.##'
+				text: 'Software version:\nYes, you are indeed\nrunning software'
 				color: 0,1,0,1
 
 		GridLayout:

@@ -10,11 +10,11 @@ class HistoryScreen(Screen):
 
     def populate(self):
         self.ids.name.text = 'History - ' + self.manager.user.username
-
-        with csv_object(f'{self.manager.save_location}UserData/{self.manager.user.username}/history.csv') as file:
+        return
+        with csv_object(f'{self.manager.save_location}/User_History/{self.manager.user.username}.csv') as file:
             all_data = file.body
         for dic in all_data:
-            dic['lesson'] = dic.pop('Lesson')
+            dic['number'] = dic.pop('Part')
             dic['accuracy'] = dic.pop('Accuracy')
             dic['wpm'] = dic.pop('WPM')
             dic['idle_time'] = dic.pop('Idle Time')
@@ -22,6 +22,4 @@ class HistoryScreen(Screen):
         self.ids.lesson_results.data = all_data
 
     def exit(self):
-        self.manager.current = 'Lesson Select'
-
-            
+        self.manager.current = 'Part Select'

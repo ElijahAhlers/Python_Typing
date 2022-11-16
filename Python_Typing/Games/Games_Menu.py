@@ -38,25 +38,22 @@ class GamesMenuScreen(Screen):
         self.load_results()
 
     def load_results(self):
-        if os.path.exists(open('Save Location.txt').read(
-                )+'UserData/'+self.manager.manager.user.username+'/GamesHistory.csv'):
+        with csv_object(
+                f'{self.manager.manager.save_location}/User_History/{self.manager.manager.user.username}/GamesHistory.csv'
+        ) as file:
+            data = file.body
 
-            with csv_object(
-                    f'{self.manager.manager.save_location}UserData/{self.manager.manager.user.username}/GamesHistory.csv'
-            ) as file:
-                data = file.body
+        self.ids.all_results.data = [
+                     {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
+                 ] + sorted(
+            data, key=lambda x: (x['date'].split('-')[2], x['date'], x['time_of_day']), reverse=True)
 
-            self.ids.all_results.data = [
-                         {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
-                     ] + sorted(
-                data, key=lambda x: (x['date'].split('-')[2], x['date'], x['time_of_day']), reverse=True)
-
-            self.ids.best_results.data = [
-                          {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
-                      ] + sorted(best_scores(data), key=lambda x: x['name'])
+        self.ids.best_results.data = [
+                      {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
+                  ] + sorted(best_scores(data), key=lambda x: x['name'])
     
     def exit(self):
-        self.manager.manager.current = 'Lesson Select'
+        self.manager.manager.current = 'Part Select'
         Window.fullscreen = False
 
 
@@ -78,16 +75,16 @@ class GamesMenuManager(ScreenManager):
         for screen in ['Games Menu']:
             self.get_screen(screen).populate()
         self.allow_backspace = True if open(
-            f'{self.manager.save_location}allow_backspace_in_games.txt').read() == 'True' else False
+            f'{self.manager.save_location}/allow_backspace_in_games.txt').read() == 'True' else False
         self.words = open(
-            f'{self.manager.save_location}TypingFiles/GameWords/default_words.txt').read().split(' ')
+            f'{self.manager.save_location}/TypingFiles/GameWords/default_words.txt').read().split(' ')
 
     def leave_me(self):
         self.get_screen('Games Menu').load_results()
         self.current = 'Games Menu'
 
     def record_results(self, game_name, score, time):
-        path = f'{self.manager.save_location}UserData/{self.manager.user.username}/GamesHistory.csv'
+        path = f'{self.manager.save_location}/User_History/{self.manager.user.username}/GamesHistory.csv'
         new_dic = {
             'name': game_name,
             'date': datetime.date.today().strftime("%m-%d-%y"),
