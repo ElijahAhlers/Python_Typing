@@ -4,7 +4,7 @@ First things first, you shouldn't do your development inside the typing program 
     1: It takes forever to get to your game while debugging
     2: If there is a syntax or import error in your code, none of the games will work
 
-I would recommend making your own kivy app to put your layout in and fixing the imports later
+I would recommend making your own kivy app to put your screen in and fixing the imports later
 
 
 Here are the rules for your game:
@@ -12,25 +12,25 @@ Here are the rules for your game:
 1: File tree:
 
 When building your game, everything your game requires must go into one folder labeled whatever you
-want your game named.  That way, your code stays organized and our program knows what to do with it
+want your game named.  That way, your code stays organized.
 
-You also must have your main file named the same as your folder
+Also, you must have your root kivy game screen defined as a class called: {Your game here}Screen
 
-Lastly, you must have your root kivy game layout defined as a class called: {Your game here}_Layout
-where {Your game here} is the name of your folder and file
+We use screens in the typing program to switch between different programs.  Your game will be a screen object
+that is added to a screenmanager object.
+
 
 2: Stuff I give you:
 
-When I initialize your game, I pass you my manager object.  This allows you to easily record your results
-and switch away from your game when you need to.
+When I initialize your game, I put your screen into a screenmanager.  This allows you to easily record your results
+and switch away from your game when you need to by calling the methods included in this manager.
 
-Make sure you keep this manager reference for future use in your game
 
 3: Stuff you can do
 
-By giving you the manager object, I allow you to simply record results and switch away from your window
+By letting you access the manager object, I allow you to simply record results and switch away from your window
 
-Whenever you want to switch away, just call manager.leave_me()
+Whenever you want to switch away, just call self.manager.leave_me()
 
 This will send the user back to the games menu
 
@@ -41,7 +41,7 @@ I leave the resetting up to you
 
 You also don't have to worry about dealing with our results file tree.
 
-When it is time to record results, just call manager.record_results()
+When it is time to record results, just call self.manager.record_results()
 
 This takes a few parameters, looking like this:
 manager.record_results(
@@ -50,6 +50,7 @@ manager.record_results(
     Time spent playing game as number in seconds)
 
 You are required to keep track of how long your game was played.
+
 
 4: Importing
 
@@ -66,7 +67,36 @@ Example:
     open('Games/Zerg_Rush/MyFile.txt')
 
 
-That's it!  Your done!
+5: Adding your game
+
+The last step is to add your screen to the rest of the typing program.
+
+To do this, you need to edit two files:
+
+    The first file to edit is the python file: "Games/Games_Menu.py"
+
+          - Under the "# import games here" note, import your game.
+              - Example: "import Games.Zerg_Rush.Zerg_Rush"
+          - This makes sure your code is loaded and attaches to the kv language you will add in the next step
+
+    The second file to edit is the kv file: "Games/Games_Menu.kv"
+
+          - Under the "<GamesMenuManager>" tag, make 2 lines for your program.
+          - The first line will be the name of your game screen followed by a colon
+              - Example: "ZergRushScreen:"
+          - The second line will be a name tag followed by the name you give to your game screen in quotes
+              - Example: "name: 'Zerg Rush'"
+
+          - Under the "<GameGrid@Layout>" tag after all other games, replace one of the label objects with 4 new lines
+          - The first line will create a game layout for your game using the syntax "GameLayout:"
+          - The second line will help pass the manager to your game using the syntax "manager: root.manager"
+          - The third line determines the string on the button for your game on the game selector screen
+              - Example: "game_name: 'Zerg Rush'"
+          - The fourth line determines the description string next to your game on the game selector screen
+              - Example: "game_description: 'Delayed Death'"
+
+
+That's it!  You're done!
 
 
 Notes:

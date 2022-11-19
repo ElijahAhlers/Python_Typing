@@ -19,7 +19,7 @@ from GUI.Results import ResultsScreen
 from Games.Games_Menu import GamesMenuScreen
 
 # Set up kivy window
-#Window.borderless = True
+Window.borderless = True
 Window.clearcolor = (0, 0, 0, 0)
 Config.read('KivyGraphicFiles/config.ini')
 kv_files = [
@@ -45,7 +45,7 @@ class Manager(ScreenManager):
     save_location = os.getcwd()[:-len('Python_Typing')]+'Data'
 
     def populate(self):
-        for screen in ['Part Select', 'Typing', 'Results', 'History', 'Change Password', 'Games Menu Manager']:
+        for screen in ['Lesson Select', 'Typing', 'Results', 'History', 'Change Password', 'Games Menu Manager']:
             self.get_screen(screen).populate()
 
 

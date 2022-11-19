@@ -35,9 +35,8 @@ class User:
 
     def check_password(self, password):
         if self.hashed_password == hashlib.sha256(password.encode('utf-8')).hexdigest():
-            history_folder_path = f'{self.path_to_data}/User_History'
-            if not os.path.isdir(history_folder_path):
-                os.mkdir(history_folder_path)
+            if not os.path.isdir(self.history_folder):
+                os.mkdir(self.history_folder)
             return True
         return False
 
@@ -50,11 +49,10 @@ class LoginScreen(Screen):
         
     def Authenticate(self):
         user = User(self.ids.username.text.lower(), self.manager.save_location)
-        print(user)
         if user.check_password(self.ids.password.text):
             self.manager.user = user
             self.manager.populate()
-            self.manager.current = 'Part Select'
+            self.manager.current = 'Lesson Select'
             return
         self.ids.incpass.text = 'Incorrect Username\nor Password'
         self.ids.incpass.color = 1, 0, 0, 1

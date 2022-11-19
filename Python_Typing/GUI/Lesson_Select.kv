@@ -52,6 +52,7 @@
     				cols: 1
     				padding: [root.width*0.15,root.height*0.05,root.width*0.05,root.height*0.05]
     				Button:
+    				    id: next_lesson_begin_button
     					text: 'Begin'
     					on_press: root.select_lesson(root.ids.nextlesson)
 		
@@ -123,7 +124,7 @@
 	    				text: 'Idle Time'
 
 	    			Label:
-	    				id: idleTime
+	    				id: idle_time
 	    				font_size: dp(root.width*root.height*0.000045)
 	    				text: '##:##'
 

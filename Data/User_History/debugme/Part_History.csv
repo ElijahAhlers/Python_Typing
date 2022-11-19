@@ -1,16 +1,19 @@
-Date,Time,Lesson,Part,Accuracy,WPM,Idle_Time
+date,time,lesson,part,accuracy,wpm,idle_time
 
-11-15-22,81554,TestyThingamabob,testydodad,100.0,57,0
-11-15-22,81563,TestyThingamabob,testydodad - Copy,100.0,96,0
-11-15-22,81568,TestyThingamabob,testydodad - Copy - Copy,100.0,144,0
-11-15-22,81575,TestyThingamabob,testydodad - Copy,100.0,72,0
-11-15-22,81581,TestyThingamabob,testydodad,100.0,144,0
-11-15-22,81586,TestyThingamabob,testydodad - Copy,87.5,72,0
-11-15-22,81593,TestyThingamabob,testydodad - Copy,100.0,96,0
-11-15-22,81601,TestyThingamabob,testydodad - Copy,83.3,48,0
-11-15-22,81606,TestyThingamabob,testydodad - Copy,79.2,56,0
-11-15-22,81700,TestyThingamabob,testydodad,100.0,57,0
-11-15-22,81781,TestyThingamabob,testydodad,100.0,72,0
-11-15-22,81805,TestyThingamabob,testydodad,100.0,96,0
-11-15-22,81860,TestyThingamabob,testydodad,100.0,96,0
-11-15-22,82002,TestyThingamabob,testydodad,100.0,96,0
+11-18-22,75121,TestyThingamabob,testydodad,100.0,96,0
+11-18-22,75127,TestyThingamabob,testydodad - Copy,100.0,96,0
+11-18-22,75132,TestyThingamabob,testydodad - Copy - Copy,79.2,84,0
+11-18-22,75202,TestyThingamabob,testydodad,100.0,57,0
+11-18-22,75207,TestyThingamabob,testydodad - Copy,100.0,96,0
+11-18-22,75213,TestyThingamabob,testydodad - Copy - Copy,100.0,144,0
+11-18-22,75313,TestyThingamabob,testydodad,100.0,72,0
+11-18-22,75320,TestyThingamabob,testydodad - Copy,100.0,72,0
+11-18-22,75326,TestyThingamabob,testydodad - Copy - Copy,100.0,144,0
+11-18-22,75432,TestyThingamabob,testydodad,100.0,72,0
+11-18-22,75437,TestyThingamabob,testydodad - Copy,100.0,96,0
+11-18-22,75443,TestyThingamabob,testydodad - Copy - Copy,100.0,96,0
+11-18-22,75503,TestyThingamabob,testydodad,100.0,57,0
+11-18-22,75508,TestyThingamabob,testydodad - Copy,100.0,96,0
+11-18-22,75514,TestyThingamabob,testydodad - Copy - Copy,100.0,144,0
+11-18-22,78227,TestyThingamabob,testydodad,100.0,96,0
+11-18-22,79734,TestyThingamabob,testydodad,0,0,0

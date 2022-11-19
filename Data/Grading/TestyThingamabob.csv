@@ -1,7 +1,4 @@
-last name,first name,date,accuracy,wpm,idle time in number,idle time in results screen,total idle time
+last name,first name,date,accuracy,wpm,idle time in lessons,idle time in results screen,total idle time
 
-Ahlers,Elijah,0,0,0,0,0,0
-Ahlers,Elijah,0,0,0,0,0,0
-Broken,I'm Probably	,15-11-22,100.0,96.0,0,0,0
-ahlers,elijah,0,0,0,0,0,0
-broken,I'm probobly,2022/11/13,0.0,0.0,0,0,0
+Ahlers,Elijah,18-11-22,100.0,96.0,0,0,0
+Broken,I'm Probably	,18-11-22,100.0,99.0,0,0,0

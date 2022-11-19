@@ -113,5 +113,5 @@ class ResultsScreen(Screen):
         self.manager.results_object.totalIdleTime += self.idle_time
         self.manager.results_object.totalResultsIdleTime += self.idle_time
         self.manager.results_object.record_results()
-        self.manager.current = 'Part Select'
+        self.manager.current = 'Lesson Select'
         Window.fullscreen = False

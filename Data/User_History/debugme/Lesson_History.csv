@@ -1,3 +1,10 @@
-date,time,number,accuracy,wpm,idle_time
+date,time,lesson,accuracy,wpm,idle_time
 
 15-11-22,82004,TestyThingamabob,100.0,96.0,0
+15-11-22,82005,Fake_Lesson,128.0,420.0,0
+18-11-22,75134,TestyThingamabob,93.0,92.0,0
+18-11-22,75215,TestyThingamabob,100.0,99.0,0
+18-11-22,75328,TestyThingamabob,100.0,96.0,0
+18-11-22,75515,TestyThingamabob,100.0,99.0,0
+18-11-22,78229,TestyThingamabob,100.0,96.0,0
+18-11-22,79734,TestyThingamabob,0.0,0.0,0

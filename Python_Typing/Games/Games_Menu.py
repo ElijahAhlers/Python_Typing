@@ -8,6 +8,7 @@ from csv_object import csv_object
 
 import Games.Modules.NoBackspaceEntry
 
+# import games here
 import Games.Letter_Game.Letter_Game
 import Games.Zerg_Rush.Zerg_Rush
 
@@ -39,21 +40,22 @@ class GamesMenuScreen(Screen):
 
     def load_results(self):
         with csv_object(
-                f'{self.manager.manager.save_location}/User_History/{self.manager.manager.user.username}/GamesHistory.csv'
+                f'{self.manager.manager.save_location}/User_History/\
+{self.manager.manager.user.username}/Games_History.csv'
         ) as file:
             data = file.body
+        if data:
+            self.ids.all_results.data = [
+                         {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
+                     ] + sorted(
+                data, key=lambda x: (x['date'].split('-')[2], x['date'], x['time_of_day']), reverse=True)
 
-        self.ids.all_results.data = [
-                     {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
-                 ] + sorted(
-            data, key=lambda x: (x['date'].split('-')[2], x['date'], x['time_of_day']), reverse=True)
-
-        self.ids.best_results.data = [
-                      {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
-                  ] + sorted(best_scores(data), key=lambda x: x['name'])
+            self.ids.best_results.data = [
+                          {'name': 'Name', 'date': 'Date', 'score': 'Score', 'time': 'Time'}
+                      ] + sorted(best_scores(data), key=lambda x: x['name'])
     
     def exit(self):
-        self.manager.manager.current = 'Part Select'
+        self.manager.manager.current = 'Lesson Select'
         Window.fullscreen = False
 
 
@@ -84,7 +86,7 @@ class GamesMenuManager(ScreenManager):
         self.current = 'Games Menu'
 
     def record_results(self, game_name, score, time):
-        path = f'{self.manager.save_location}/User_History/{self.manager.user.username}/GamesHistory.csv'
+        path = f'{self.manager.save_location}/User_History/{self.manager.user.username}/Games_History.csv'
         new_dic = {
             'name': game_name,
             'date': datetime.date.today().strftime("%m-%d-%y"),
