@@ -10,7 +10,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Data\Grading\Home Row Intro.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Data\Grading\TestyThingamabob.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Data\TypingFiles\Lessons\1 &amp; 7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Data\TypingFiles\Lessons\Bible Verses Advanced WB.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
