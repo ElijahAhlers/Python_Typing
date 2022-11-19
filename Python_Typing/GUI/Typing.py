@@ -58,7 +58,6 @@ class TypingScreen(Screen):
         self.ids.lastname.text = self.manager.user.last_name
 
     def start_lesson(self):
-        Window.fullscreen = 'auto'
         self.lesson = self.manager.lesson.lesson_list[self.manager.next_lesson]
         self.ids.lessonNum.text = f'Part {self.manager.next_lesson + 1} of {len(self.manager.lesson.lesson_list)}'
         self.total_time = self.time_left = self.lesson.time

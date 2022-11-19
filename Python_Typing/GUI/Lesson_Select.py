@@ -173,6 +173,7 @@ class LessonSelectScreen(Screen):
         self.manager.results_object = Results(new_lesson, self.manager.user, self.manager.save_location)
         self.manager.next_lesson = 0
         self.manager.current = 'Typing'
+        Window.fullscreen = 'auto'
         self.manager.get_screen('Typing').start_lesson()
 
     def change_password(self):

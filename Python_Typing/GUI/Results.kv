@@ -93,9 +93,14 @@
             size_hint_x: .3
             rows: 5
 
-            Button:
-                text: 'Exit'
-                on_press: root.exit()
+            GridLayout:
+                cols: 1
+                padding: [root.width*0.05,root.height*0.01,root.width*0.05,root.height*0.1]
+
+                Button:
+                    text: 'Exit'
+                    font_size: '35sp'
+                    on_press: root.exit()
 
             GridLayout:
                 rows:3

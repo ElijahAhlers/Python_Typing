@@ -14,7 +14,6 @@ class csv_object:
             with open(filename, 'r') as file_read:
                 file_contents = [line for line in csv.reader(file_read)]
                 self.header = file_contents[0]
-                self.body = []
                 for line_contents in file_contents[2:]:
                     self.body += [{self.header[i]:item for i, item in enumerate(line_contents)}]
 
