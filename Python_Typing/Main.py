@@ -21,7 +21,7 @@ from Games.Games_Menu import GamesMenuScreen
 # Set up kivy window
 Window.borderless = True
 Window.clearcolor = (0, 0, 0, 0)
-Config.read('KivyGraphicFiles/config.ini')
+Config.read('GUI/config.ini')
 kv_files = [
     'Main.kv',
     'Login.kv',

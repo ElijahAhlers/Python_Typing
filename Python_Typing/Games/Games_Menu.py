@@ -11,6 +11,7 @@ import Games.Modules.NoBackspaceEntry
 # import games here
 import Games.Letter_Game.Letter_Game
 import Games.Zerg_Rush.Zerg_Rush
+import Games.Word_Flash.Word_Flash
 
 
 def best_scores(scores):

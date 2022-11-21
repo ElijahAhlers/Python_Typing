@@ -5,6 +5,8 @@
         name: 'Letter Game'
     ZergRushScreen:
         name: 'Zerg Rush'
+    WordFlashScreen:
+        name: 'Word Flash'
 
 
 <GameGrid@GridLayout>:
@@ -23,7 +25,11 @@
 	    game_name: 'Zerg Rush'
 	    game_description: 'I guarantee death by the end.'
 
-	Label
+	GameLayout:
+	    manager: root.manager
+	    game_name: 'Word Flash'
+	    game_description: 'Type the words as they flash onto the screen'
+
 	Label
 	Label
 	Label
