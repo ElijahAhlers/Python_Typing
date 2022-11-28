@@ -1,6 +1,6 @@
 # Get rid of kivy info text
 import os
-os.environ["KIVY_NO_CONSOLELOG"] = '1'
+# os.environ["KIVY_NO_CONSOLELOG"] = '1'
 
 # Kivy stuff
 from kivy.app import App
@@ -21,7 +21,7 @@ from Games.Games_Menu import GamesMenuScreen
 # Set up kivy window
 Window.borderless = True
 Window.clearcolor = (0, 0, 0, 0)
-Config.read('GUI/config.ini')
+Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
 kv_files = [
     'Main.kv',
     'Login.kv',

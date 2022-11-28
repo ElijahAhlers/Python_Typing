@@ -97,10 +97,11 @@ class TypingScreen(Screen):
         if len(self.typed_letters) == len(self.lesson_letters):
             return
 
-        if 'shift' in modifiers:
-            letter = letter.upper() if letter not in self.symbols else self.corresp[self.symbols.index(letter)]
-        elif 'capslock' in modifiers:
-            letter = letter.upper() if 'shift' not in modifiers else letter
+        if letter:
+            if 'shift' in modifiers:
+                letter = letter.upper() if letter not in self.symbols else self.corresp[self.symbols.index(letter)]
+            if 'capslock' in modifiers:
+                letter = letter.upper() if 'shift' not in modifiers else letter.lower()
 
         if ascii_tuple[1] == 'backspace' and self.lesson.backspace and self.typed_letters:
             self.typed_letters = self.typed_letters[:-1]
@@ -113,8 +114,8 @@ class TypingScreen(Screen):
                 self.typed_letters += [letter]
 
         self.on_screen_letters = self.typed_letters[-self.max_char_on_screen:]
-        self.ids.typedText.text = ''.join(self.on_screen_letters) + ' ' * (
-                self.total_char_width - len(self.on_screen_letters))
+        self.ids.typedText.text = ''.join(self.on_screen_letters) + '_' + ' ' * (
+                self.total_char_width - len(self.on_screen_letters)-1)
 
         if len(self.on_screen_letters) < self.max_char_on_screen:
             letters_to_show = self.lesson_letters[:self.total_char_width]
