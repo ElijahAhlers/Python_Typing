@@ -1,5 +1,6 @@
 # Get rid of kivy info text
-# os.environ["KIVY_NO_CONSOLELOG"] = '1'
+import os
+os.environ["KIVY_NO_CONSOLELOG"] = '1'
 
 # Kivy stuff
 from kivy.app import App
@@ -7,7 +8,6 @@ from kivy.uix.screenmanager import ScreenManager, NoTransition
 from kivy.core.window import Window
 from kivy.config import Config
 from kivy.lang import Builder
-import os
 
 # Stuff we made
 from GUI.Login import LoginScreen

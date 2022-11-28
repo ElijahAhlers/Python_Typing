@@ -7,6 +7,24 @@ First things first, you shouldn't do your development inside the typing program 
 I would recommend making your own kivy app to put your screen in and fixing the imports later
 
 
+Notes:
+
+    When making a class, you can define class variables without putting them in the __init__() function
+    The syntax looks like this
+
+    class MyClass():
+
+        x = 6
+
+        def prtx(self):
+            print(self.x)
+
+
+    Best practice when making kivy screens and layouts is not to overwrite the __init__() class method
+    When inheriting from kivy screens and layout objects, their __init__ function is used by default if you do not
+        provide a replacement one
+
+
 Here are the rules for your game:
 
 1: File tree:
